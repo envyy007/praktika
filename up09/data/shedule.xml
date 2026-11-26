@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Расписание секций в XML. Практика УП.09.01, 24.11.26 (ПК 9.2).
+  Структура описана в data/schedule.xsd, поля — в docs/xml-fields.md.
+-->
+<schedule week="48" updated="2026-11-24" college="ГАПОУ ТО «ТКПСТ»">
+  <lesson id="l1" section="Кулинарный кружок" day="пн" day_index="1" time="15:30" duration="90" room="204" coach="Чернов А. А."/>
+  <lesson id="l2" section="Веб-разработка"    day="пн" day_index="1" time="17:00" duration="80" room="312" coach="Чернов А. А."/>
+  <lesson id="l3" section="Базы данных"       day="вт" day_index="2" time="16:00" duration="90" room="310" coach="Крылова Н. И."/>
+  <lesson id="l4" section="Кулинарный кружок" day="ср" day_index="3" time="15:30" duration="90" room="204" coach="Чернов А. А."/>
+  <lesson id="l5" section="Веб-разработка"    day="чт" day_index="4" time="17:00" duration="80" room="312" coach="Чернов А. А."/>
+  <lesson id="l6" section="Робототехника"     day="пт" day_index="5" time="14:00" duration="120" room="118" coach="Гущин П. С."/>
+  <lesson id="l7" section="Базы данных"       day="сб" day_index="6" time="11:00" duration="90" room="310" coach="Крылова Н. И."/>
+</schedule>
